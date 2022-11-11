@@ -44,32 +44,34 @@ div.desc {
 	text-align: center;
 }
 
+div.espacio1 {
+	height: 80px;
+	width: 100%;
+}
+
 div.planing {
 	width: 100%;
 	background-color: yellow;
-	height: 750px;
+	height: 70px;
 }
 
 div.planing1 {
-	background-color: green;
+	background-color: white;
 	height: 80px;
-	padding-top: 5%;
 	position: static;
-	padding-left: 43%;
-	font-size: 20px;
+	padding-left: 30%;
+	font-size: 50px;
 }
 
-div.planing2 {
-	background-color:green;
-	height: 200px;
-	width: 100%;
-}
-
-img {
+img.dos {
   border-radius: 50%;
 }
 
-h1 {
-	width:100%;
-	background-color: white;
+h2{
+	margin: 10%;
+}
+
+div.mapa {
+	background-image: url("images/mapa-andalucia.jpg");
+	height: 650px;
 }
