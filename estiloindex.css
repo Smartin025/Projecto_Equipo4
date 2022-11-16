@@ -8,19 +8,25 @@ background-color:#293f49;
 .logo {
 height: 80px;
 width: auto;
+float: left;
 }
 
 ul {
 list-style-type:none;
 overflow:hidden;
 background-color:#293f49;
-width: 100%;
+width: 96.8%;
 height: 40px;
 font-size: 20px;
 margin-bottom: 0px;
 margin-top: 0px;
 margin-right: 0px;
 margin-left: 0px;
+position: sticky;
+top:0;
+z-index:1;
+/* border-bottom: 3px solid white; para poner un borde inferior en el menu, eliminar este comentario*/
+
 }
 li {
 	float:center;
@@ -60,20 +66,29 @@ li.drop{
 background-color: red;
 border: 0px none;
 }
-/* en caso de necesitar dropdown
+/* en caso de necesitar dropdown eliminar este comentario
 .drop:hover .dcontent {
 display:block;
 }
 */
+.logotext {
+position:relative;
+top: 20px;
+margin:0px;
+color: #ff9900;
+font-size: 48px;
+ 
+}
 .menu {
 height: 10%;
 width:100%;
 background-color:#293f49;
 border-bottom: 3px solid white;
-border-top: 3px solid white;
+border-top: 0px solid white;
 margin-bottom: 0px;
 margin-top: 0px;
 margin-left:0px;
+float:center-left;
 }
 /* EL MENU ACABA AQUI*/
 
@@ -96,12 +111,27 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("
   text-shadow: 2px 2px 5px black;
   font-size: 30px;
 }
+.menua {
+height: auto;
+width:100%;
+background-color:#293f49;
+border-top: 3px solid white;
+margin-bottom: 0px;
+margin-top: 0px;
+margin-left:0px;
+}
 p {
 color: white;
 font-size: 18px;
 padding: 2px 0px 0px 20px;
+margin-bottom:10px;
 }
 h2 {
-padding-left: 20px;
+padding-left: 10px;
 color: #ff9900;
+}
+.imageanda {
+height: 60px;
+float:right;
+
 }
