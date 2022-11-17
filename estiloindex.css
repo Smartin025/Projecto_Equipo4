@@ -3,12 +3,25 @@ margin: 0px 0px 0px 0px;
 padding: 0px 0px 0px 0px;
 font-family: Times New Roman;
 background-color:#293f49;
+height:auto;
 }
-/* EL MENU EMPIEZA AQUI*/
+
+
+
+
+
+/* EL MENU EMPIEZA AQUI//SI EL MENU DEJA DE SEGUIR A TU PAGINA WEB CUANDO VAS HACIA ABAJO VE A BODY { HEIGHT:AUTO;}----*/
+
+
+
+
 .logo {
 height: 80px;
 width: auto;
 float: left;
+}
+.link {
+text-decoration:none;
 }
 
 ul {
@@ -90,7 +103,19 @@ margin-top: 0px;
 margin-left:0px;
 float:center-left;
 }
-/* EL MENU ACABA AQUI*/
+
+
+
+
+
+
+/* EL MENU ACABA AQUI---------------------------------------------------------------------------------*/
+
+
+
+
+
+
 
 .indeximg {
 background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/indexfondo.jpg");
@@ -137,8 +162,9 @@ float:right;
 }
 .copyright {
 width:100%;
+height: 200px;
 background-color:#293f49;
-border-top: 3px solid yellow;
+border-top: 4px solid yellow;
 margin-bottom: 0px;
 margin-top: 0px;
 margin-left:0px;
