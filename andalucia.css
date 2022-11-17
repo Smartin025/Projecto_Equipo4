@@ -166,10 +166,10 @@ h2{
 }
 
 div.mapa {
-	background-image: url("images/mapa-andalucia.jpg");
 	background-repeat: no-repeat;
-	height: 821px;
+	height: 1000px;
 	text-align: center;
+	width: 100%;
 }
 
 .gallery:hover {
@@ -177,3 +177,4 @@ div.mapa {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
+
