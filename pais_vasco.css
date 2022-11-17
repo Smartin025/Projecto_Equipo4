@@ -93,7 +93,7 @@ body, html {
 }
 
 .hero-image {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/banner_asturias.jpg");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/banner_pais-vasco.jpg");
 	height: 40%;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -166,14 +166,20 @@ h2{
 }
 
 div.mapa {
-	background-image: url("images/mapa-andalucia.jpg");
 	background-repeat: no-repeat;
-	height: 821px;
+	height: 1000px;
 	text-align: center;
+	width: 100%;
+	position: center;
 }
 
 .gallery:hover {
   -ms-transform: scale(1.1);
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
+}
+
+img.portada {
+	height: 300px;
+	width: 350px;
 }
