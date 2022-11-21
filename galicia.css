@@ -53,18 +53,20 @@ div.text {
 
 
 
-/* EL MENU EMPIEZA AQUI*/
 .logo {
 height: 80px;
 width: auto;
 float: left;
+}
+.link {
+text-decoration:none;
 }
 
 ul {
 list-style-type:none;
 overflow:hidden;
 background-color:#293f49;
-width: 97.65%;
+width: 97,65%;
 height: 40px;
 font-size: 20px;
 margin-bottom: 0px;
@@ -139,6 +141,7 @@ margin-top: 0px;
 margin-left:0px;
 float:center-left;
 }
+
 /* EL MENU ACABA AQUI*/
 
 div.planing {
@@ -150,7 +153,8 @@ margin: 0 0 5% 0;
 div.planing1 {
 background-color: white;
 height: 80px;
-padding-left: 30%;
+padding-left: 35%;
+padding-right: 35%;
 font-size: 50px;
 }
 
@@ -159,6 +163,40 @@ img.dos {
 }
 
 h2 {margin: 10%;}
+
+h3 {margin: 0 5% 5% 5%;}
+
+div.mapa {
+background-repeat: no-repeat;
+height: 1000px;
+text-align: center;
+width: 100%;
+position: center;
+}
+
+.gallery2:hover {
+  -ms-transform: scale(0); 
+  -webkit-transform: scale(1.1); 
+  transform: scale(1.1); 
+}
+
+div.pie-de-pagina {
+background-color: black;
+opacity: 1;
+height: 25%;
+width: 100%;
+}
+
+table.pie {
+background-color: black;
+margin:5%;
+color: white;
+}
+
+h5 {
+font-size:12px;
+}
+
 
 h3 {margin: 0 5% 5% 5%;}
 
