@@ -191,6 +191,12 @@ div.mapa {
   transform: scale(1.1);
 }
 
+.gallery2:hover {
+  -ms-transform: scale(0);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
 div.agencias {
 	height: 40%;
 	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/banner-agencias.jpg");
@@ -266,3 +272,4 @@ div.que_visitar {
 	color: white;
 	text-shadow: 2px 2px 5px black;
 }
+
