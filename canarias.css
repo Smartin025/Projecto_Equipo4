@@ -63,7 +63,7 @@ ul {
 list-style-type:none;
 overflow:hidden;
 background-color:#293f49;
-width: 97,65%;
+width: 97.65%;
 height: 40px;
 font-size: 20px;
 margin-bottom: 0px;
@@ -224,4 +224,25 @@ background-repeat: no-repeat;
 background-size: cover;
 position: relative;
 margin: 10% 0 5% 0;
+}
+
+div.gallery3 {
+  float: left;
+  width: 80%;
+  padding: 5%;
+}
+
+div.gallery3 img {
+  width: 100%;
+  height: auto;
+}
+
+.textdec {
+padding: 5% 5% 5% 0;
+font-size: 25px;		
+}
+
+.textdec2 {
+padding: 5% 0% 5% 5%;
+font-size: 25px;		
 }
