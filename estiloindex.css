@@ -25,6 +25,7 @@ text-decoration:none;
 }
 
 ul {
+font-family: Arial, Helvetica, sans-serif;
 list-style-type:none;
 overflow:hidden;
 background-color:#293f49;
