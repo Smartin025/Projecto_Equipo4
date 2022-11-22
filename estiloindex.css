@@ -39,8 +39,6 @@ margin-left: 0px;
 position: sticky;
 top:0;
 z-index:1;
-/* border-bottom: 3px solid white; para poner un borde inferior en el menu, eliminar este comentario*/
-
 }
 li {
 	float:center;
@@ -221,13 +219,21 @@ background-image:url("images/banner_pais-vasco.jpg");
   position: relative;
   margin-top: 0px;
 }
-.copyright {
-width:100%;
-height: auto;
-background-color:#293f49;
-border-top: 4px solid yellow;
-margin-bottom: 0px;
-margin-top:0px;
-margin-left:0px;
-font-size: 10px;
+
+div.pie-de-pagina {
+	background-color: black;
+	opacity: 1;
+	height: 25%;
+	width: 100%;
+	
+}
+
+table.pie {
+	background-color: black;
+	margin:5%;
+	color: white;
+}
+
+h5 {
+	font-size:12px;
 }
