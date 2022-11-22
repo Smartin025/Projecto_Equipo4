@@ -1,7 +1,7 @@
 body {
 margin: 0px 0px 0px 0px;
 padding: 0px 0px 0px 0px;
-font-family: Times New Roman;
+font-family: Arial, Helvetica, sans-serif;
 background-color:#293f49;
 height:auto;
 }
@@ -90,7 +90,6 @@ top: 20px;
 margin:0px;
 color: #ff9900;
 font-size: 48px;
-font-family: Arial, Helvetica, sans-serif;
  
 }
 .menu {
@@ -193,6 +192,26 @@ background-image:url("images/banner_asturias.jpg");
 }
 .bannercata {
 background-image:url("images/catalunya.jpg");
+  height: 46%;
+ border-top: 3px solid white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-top: 0px;
+}
+.bannergali {
+background-image:url("images/banner_galicia.jpg");
+  height: 46%;
+ border-top: 3px solid white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-top: 0px;
+}
+.bannerpais {
+background-image:url("images/banner_pais-vasco.jpg");
   height: 46%;
  border-top: 3px solid white;
   background-position: center;
