@@ -136,6 +136,12 @@ div.gallery:hover {
 	transform: sacale(1.1);
 }
 
+div.gallery2:hover {
+	-ms-transform: scale(0);
+	-webkit-transform: sacale(1.1);
+	transform: sacale(1.1);
+}
+
 div.gallery img {
 	width: 100%;
 	height: auto;
